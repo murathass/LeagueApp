@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/team1name"
+        android:layout_weight="2"
+        android:maxWidth="80dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:weightSum="3"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:text=""
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_weight="2"
+            android:textColor="@android:color/white"
+            android:text=""
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/team2name"
+        android:maxWidth="80dp"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_weight="2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
